@@ -1,0 +1,61 @@
+*{
+   font-family: 'Lato', sans-serif;
+   
+}
+body{
+   background-image: url(/static/css/images/login1.jpg);
+   background-size:cover;
+   height: 100vh;
+}
+
+div{
+   margin: 5%;
+   padding: 5%;
+}
+h3{
+   padding: 2%;
+}
+.new{
+   border: 2px solid #182C61;
+   border-radius: 7%;
+   padding: 17%;
+
+   background: rgba( 74, 144, 226, 0.30 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.0px );
+-webkit-backdrop-filter: blur( 3.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+a{
+   border: 3px solid #1B9CFC;
+
+   color:deepskyblue;
+   background-color: #3B3B98;
+   margin-right: 1px;
+
+   float: right;
+   padding: 5%;
+
+   text-decoration: none;
+   font-weight: 400;
+   font-size: medium;
+
+   background: rgba( 74, 144, 226, 0.30 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.0px );
+-webkit-backdrop-filter: blur( 3.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+a:hover,
+a:active{
+   
+   border: 3px solid #58B19F;
+   background-color: #58B19F;
+   color: white;
+   transition: border 0.5s, background-color 0.5s, color 0.5s;
+
+   
+}

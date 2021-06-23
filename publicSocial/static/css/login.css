@@ -1,0 +1,108 @@
+*{
+   margin: 0;
+   font-family: 'Lato', sans-serif;
+}
+
+body{
+   background-image: url(/static/css/images/login1.jpg);
+
+
+   background-size:cover;
+   height: 100vh;
+   
+}
+
+form{
+   margin: 15%;
+   border: 1px solid red;
+   padding: 5%;
+
+   background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h3{
+   text-align: center;
+   padding: 7%;
+   color: #1B9CFC;
+
+}
+
+input[type=text], input[type=text], input[type=password] {
+   width: 100%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   margin: 2.5% 0% 12% 0%;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+
+   font-size: 100%;
+
+
+
+
+   background: #81ecec5d;
+   box-shadow: 0 8px 32px 0 #81ecec5b;
+   backdrop-filter: blur( 20.0px );
+   -webkit-backdrop-filter: blur( 20.0px );
+   border-radius: 10px;
+   border: 1px solid #81ecec;
+}
+label{
+   padding-left: 3%;
+   color: #55efc4;
+}
+
+button{
+   padding: 3%;
+   margin-left: 40%;
+   margin-bottom: 10%;
+
+   background: rgba( 23, 228, 181, 0.55 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 20.0px );
+   -webkit-backdrop-filter: blur( 20.0px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+
+}
+input:hover,
+input:active{
+   background-color: #222f3e;
+   color: rgb(29, 209, 161);
+   transition: background-color 1s, color 1s;
+}
+
+button:hover,
+button:active{
+   background-color: #222f3e;
+   color: rgb(29, 209, 161);
+   transition: background-color 1s, color 1s;
+}
+
+
+
+a{
+   text-align: center;
+   text-decoration: none;
+   color: #fab1a0;
+}
+a:hover,
+a:active{
+   color: #54a0ff;
+   text-decoration-line:underline;
+   transition: color 0.5s;
+}
+
+.account-forandregi{
+   text-align: center;
+   width: 100%;
+}
+
